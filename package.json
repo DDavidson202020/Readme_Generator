@@ -1,0 +1,28 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "My first json package",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDavidson202020/Readme_Generator.git"
+  },
+  "keywords": [
+    "test",
+    "npm",
+    "package.json"
+  ],
+  "author": "Dung Davidson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDavidson202020/Readme_Generator/issues"
+  },
+  "homepage": "https://github.com/DDavidson202020/Readme_Generator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.1.0"
+  }
+}

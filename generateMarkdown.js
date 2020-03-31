@@ -1,18 +1,28 @@
-const fs = require("fs");
+
 function generateMarkdown(data) {
-    let heading = `
-    #${data}
-    `;
-    
+    return `
+<img src = "https://img.shields.io/static/v1?label=<LABEL>&message=badge&color=blue">
 
-    fs.appendFile('newReadme.md', heading, (err) => {
-      if (err) throw err;
-      console.log('markdownSuccess');
-    });
+# ${data.title}
 
-    
+# Description
+${data.description}
+# Installation
+${data.installation}
+# Usage
+${data.usage}
+# License
+${data.license}
+# Contributing
+${data.contributing}
+# Questions
+<p>If you have any question, contact me.</p>
 
-  
+# Test
+${data.test}
+
+![](${data.image})
+`;
 }
   
   module.exports = generateMarkdown;

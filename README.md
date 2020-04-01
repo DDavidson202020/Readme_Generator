@@ -18,7 +18,7 @@ The user will be prompted for their GitHub username, which will be used to make 
 * User GitHub profile picture
 
 
-![GitHub license](https://img.shields.io/badge/None-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
 
 # Project
 

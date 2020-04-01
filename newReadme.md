@@ -1,20 +1,20 @@
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
 
-# Project
+# Big Project
 
 ## Description
-no description
+Some sort of description
 ## Installation
-no install
+No installation for now
 ## Usage
-no usage
+No usage
 ## Contributing
-no contributing
+No guideline for contributing
 ## Questions
 <p>If you have any question, contact me.</p>
 
 ## Test
-no test
+No test
 
 ![](https://avatars0.githubusercontent.com/u/60282092?v=4)

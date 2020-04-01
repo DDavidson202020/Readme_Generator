@@ -1,7 +1,9 @@
+// Require all the modules needed 
 const inquirer = require('inquirer');
 const api = require("./api");
 const generateMarkdown = require("./generateMarkdown")
 const fs = require("fs");
+// Using npm inquirer to prompt all these questions to user
 inquirer
   .prompt([
     {
@@ -49,11 +51,16 @@ inquirer
   ])
   .then(function (response) {
     console.log(response);
+    // Making an api request 
     api.getUser(response.username)
         .then(function (data1) {
+          // Access the image from response back from api
             response.image = data1.data.avatar_url
+            // Create a variable that stores the value of the generateMarkdown function
             let generateReadme = generateMarkdown(response)
+            // Write a file using fs to generate the newReadme file
             fs.writeFile('newReadme.md', generateReadme, (err) => {
+              // Handle error
               if (err) throw err;
                 console.log('Success');
             });

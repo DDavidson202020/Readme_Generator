@@ -1,5 +1,6 @@
 
 function generateMarkdown(data) {
+  // generate the readme file in this order and get data from user's input
     return `
 ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 

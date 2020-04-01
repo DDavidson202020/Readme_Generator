@@ -1,10 +1,10 @@
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# Big Project
+# Project
 
 ## Description
-some sort of description
+no description
 ## Installation
 no install
 ## Usage

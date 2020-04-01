@@ -1,4 +1,4 @@
-![](https://img.shields.io/static/v1?label=label&message=badge&color=blue)
+
 Create a command-line application that dynamically generates a README.md from a user's input using Nodejs. The application will be invoked with the following command: node index.js
 
 The user will be prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their email and profile image. They will then be prompted with questions about their project.
@@ -16,4 +16,23 @@ The user will be prompted for their GitHub username, which will be used to make 
 * Tests
 * Questions
 * User GitHub profile picture
-![](https://avatars0.githubusercontent.com/u/60282092?v=4)
+
+
+![GitHub license](https://img.shields.io/badge/None-blue.svg)
+
+# Project
+
+# Description
+some sort of description
+# Installation
+no install
+# Usage
+no usage
+# Contributing
+no contributing
+# Questions
+<p>If you have any question, contact me.</p>
+
+# Test
+no test
+

@@ -31,9 +31,10 @@ inquirer
       name: "usage",
     },
     {
-      type: "input",
+      type: "list",
       message: "What is the license for this project?",
       name: "license",
+      choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
     },
     {
       type: "input",
@@ -71,10 +72,10 @@ inquirer
 
   });
 
-function init() {
+//function init() {
 
   // Logic for this app shoud be here. You can create more functions if you like. This is just a template for you to start your Homework but it is not required for you to use it.
 
-}
+//}
 
-init();
+//init();

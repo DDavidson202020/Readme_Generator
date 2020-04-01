@@ -1,9 +1,11 @@
-
+![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
+# Readme_Generator
+## Description
 Create a command-line application that dynamically generates a README.md from a user's input using Nodejs. The application will be invoked with the following command: node index.js
 
 The user will be prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their email and profile image. They will then be prompted with questions about their project.
 
-# The README will be populated with the following:
+## The README will be populated with the following:
 
 * At least one badge
 * Project title
@@ -18,21 +20,22 @@ The user will be prompted for their GitHub username, which will be used to make 
 * User GitHub profile picture
 
 
-![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# Project
+# Big Project
 
-# Description
+## Description
 some sort of description
-# Installation
+## Installation
 no install
-# Usage
+## Usage
 no usage
-# Contributing
+## Contributing
 no contributing
-# Questions
+## Questions
 <p>If you have any question, contact me.</p>
 
-# Test
+## Test
 no test
 
+![](https://avatars0.githubusercontent.com/u/60282092?v=4)
